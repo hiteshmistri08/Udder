@@ -27,11 +27,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="js5-hT-UJp">
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="js5-hT-UJp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T28-K7-anJ"/>
                             <constraint firstItem="zMu-Vj-D4v" firstAttribute="centerX" secondItem="bJl-30-k6k" secondAttribute="centerX" id="fUQ-SS-vas"/>
                             <constraint firstItem="bJl-30-k6k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="h7i-mt-TKW"/>
+                            <constraint firstItem="js5-hT-UJp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nXa-i9-J34"/>
                             <constraint firstItem="zMu-Vj-D4v" firstAttribute="top" secondItem="bJl-30-k6k" secondAttribute="bottom" constant="20" id="rQJ-mg-MnK"/>
                             <constraint firstItem="bJl-30-k6k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xUO-Hh-Xxq"/>
                         </constraints>
